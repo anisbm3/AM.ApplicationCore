@@ -8,11 +8,13 @@ namespace AM.ApplicationCore.Domain
 {
     public class Passenger
     {
-        public DateTime Birthdate { get; set; }
-        public String EmailAddress { get; set; }
-        public String FirstName { get; set; }
-        public String LastName { get; set; }
-        public String PassportNumber { get; set; }
-        public String TelNumber { get; set; }
+        public DateTime BirthDate { get; set; }
+        public string EmailAdresse { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string PassportNumber { get; set; }
+        public string TelNumber { get; set; }
+
+        public List<Flight> Flights { get; set; }
     }
 }
